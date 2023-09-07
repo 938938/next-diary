@@ -15,12 +15,10 @@ export default function RootLayout({
   return (
     <html>
       <body>
-        <div>
-          <Link href='/'>Main</Link>
-          <Link href='/diary'>Diary</Link>
-          <Link href='/new'>New</Link>
-          <Link href='/edit'>Edit</Link>
-        </div>
+        <header>
+          <Link href='/'>메인으로 가기</Link>
+          <Link href='/new'>새 일기 쓰기</Link>
+        </header>
         <div>{children}</div>
       </body>
     </html>
